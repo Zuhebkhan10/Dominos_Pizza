@@ -32,6 +32,8 @@ update order_details set quantity=0 where quantity <1;
 
 #Fixing Inconsistent date formats and Invalid dates
 select *from orders where order_date is null 
+
+#fixing invalid email address
  
 
  
